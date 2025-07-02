@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pixel Weather Widget</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="weather-card">
+      <h1>Weather</h1>
+      <img id="weatherIcon" src="Images/sunny.jpg" alt="Weather Icon" />
+      <p id="temperature">-- °C</p>
+      <p id="description">Loading...</p>
+      <p id="location">Your City</p>
+
+      <div class="temp-toggle">
+        <button onclick="toggleTemp('c')">°C</button>
+        <button onclick="toggleTemp('f')">°F</button>
+      </div>
+
+      <div class="city-input">
+        <input type="text" id="cityName" placeholder="Enter city name" />
+        <button onclick="getCityWeather()">Check Weather</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ by Nandita</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

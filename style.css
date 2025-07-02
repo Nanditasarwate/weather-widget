@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.weather-card {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.weather-card h1 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+#weatherIcon {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin: 15px 0;
+}
+
+#temperature {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+#description, #location {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.temp-toggle {
+  margin-top: 15px;
+}
+
+.temp-toggle button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fcb69f;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.temp-toggle button:hover {
+  background-color: #ff9966;
+}
+
+.city-input {
+  margin-top: 20px;
+}
+
+.city-input input {
+  padding: 8px 12px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.city-input button {
+  margin-top: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffa07a;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.city-input button:hover {
+  background-color: #ff7f50;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: transparent;
+  font-size: 0.9rem;
+  color: #444;
+}
