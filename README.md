@@ -21,3 +21,7 @@ A cute, animated pixel-style weather widget that shows real-time weather updates
 
 ![Demo Screenshot](Images/demo.png)
 
+📍 Deployed at:  
+**https://nanditasarwate.github.io/weather-widget/**
+
+## ✍️ Made with ❤️ by Nandita
